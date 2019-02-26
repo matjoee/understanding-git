@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <title>Uploads</title>
+    <link type="text/css" rel="stylesheet" href="style.css" </head>
+
+    <fieldset>
+        <div id="header">
+            <div class="container">
+                <div id="logoArea">
+                    <div id="navArea">
+                        <ul id="nav">
+                            <a href="#">
+                                <li><a href="index.html">Home</a></li>
+                            </a>
+                            <a href="#">
+                                <li><a href="mp3.html">Mp3</a></li>
+                            </a>
+                            <a href="#">
+                                <li><a href="videos.html">Videos</a></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <table>
+            <p>Upload Song</p>
+            <form method="post" action="apply-now.php">
+                <input name="subject" type="hidden" value="Class" />
+                <fieldset>
+                    <legend>Music information</legend>
+                    <label for="Music Type">Music Type</label>
+                    <select name="degree" id="degree">
+                <option value="BA">Local RNBs</option>
+                <option value="BS">Upcountry RNBs</option>
+                <option value="MBA" selected="selected">Upcountry RNBs</option>
+            </select>
+                    <br/>
+                    <label for="song ID">Song ID</label>
+                    <input type="password" name="studentid" />
+                </fieldset>
+                <fieldset>
+                    <legend>Song Details</legend>
+                    <label for="fname">Artist</label>
+                    <input type="text" name="fname" id="fname" />
+                    <br />
+                    <label for="lname">Song</label>
+                    <input type="text" name="lname" id="lname" />
+                    <br/> Class:
+                    <input name="gender" type="radio" id="gm" value="m" />
+                    <label for="gm">Video</label>
+                    <input name="gender" type="radio" id="gf" value="f" />
+                    <label for="gf">Audio</label>
+                    <br/>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                </fieldset>
+                <p>
+                    <textarea name="terms" cols="30" rows="4" readonly="readonly">TERMS AND CONDITIONS...</textarea>
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="Upload" />
+                    <input type="reset" value="Clear Form" />
+                </p>
+        </table>
+        </form>
+    </fieldset>
+
+</html>

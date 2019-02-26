@@ -18,7 +18,7 @@ body {
 .container {
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin-left: 5px;
 }
 
 {
@@ -57,7 +57,7 @@ body {
     background-color: purple;
 }
 #musiclist:hover {
-    background-color: blue;
+    background-color: rgb(197, 197, 211);
 }
 #footer {
     position: static;
